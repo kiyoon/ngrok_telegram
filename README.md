@@ -11,6 +11,7 @@ pip3 install requests
 ```
 
 # Usage
-1. Modify `config.yml`.
-2. Make `telegram_key.ini` and write `token` and `chat_ids`. Refer to `telegram_key.ini.template
-3. Run `ngrok_telegram.sh`
+1. Setup ngrok token by running `ngrok token [TOKEN]`.
+2. Modify `config.yml`.
+3. Make `telegram_key.ini` and write `token` and `chat_ids`. Refer to `telegram_key.ini.template
+4. Run `ngrok_telegram.sh`
