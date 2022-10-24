@@ -2,7 +2,7 @@
 
 SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
 echo "Starting ngrok"
-ngrok start --all --config "$HOME/.ngrok2/ngrok.yml" --config "$SCRIPT_DIR/config.yml" > /dev/null &
+ngrok start --all --config "$HOME/.config/ngrok/ngrok.yml" --config "$SCRIPT_DIR/config.yml" > /dev/null &
 
 # Wait for ngrok to be available
 while ! nc -z localhost 4040; do

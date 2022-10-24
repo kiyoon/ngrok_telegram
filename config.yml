@@ -1,5 +1,6 @@
-# Specify authtoken in ~/.ngrok2/ngrok.yml
+# Specify authtoken in ~/.config/ngrok/ngrok.yml
 
+version: "2"
 region: eu
 tunnels:
     ssh:
@@ -7,4 +8,4 @@ tunnels:
         proto: tcp
     web:
         addr: 80
-        proto: http 
+        proto: http
