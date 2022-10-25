@@ -19,4 +19,4 @@ do
 done
 
 
-python3 telegram_post.py --title 'Ngrok URL' --body "$ngrok_urls"
+python3 "$SCRIPT_DIR/telegram_post.py" --title 'Ngrok URL' --body "$ngrok_urls"
